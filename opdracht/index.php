@@ -3,8 +3,10 @@
     </head>
     <body>
       <?php
-      $mymovies = array("The Lion King ", "Spiderman 3", "Batman"); 
-      echo  $mymovies[0] . "<br>" . $mymovies[1] . " <br>" . $mymovies[2];
+      $myNames =  ['tijger', 'mickey', 'lotje'];
+      $myNames[3] = 'panter';
+
+      echo $myNames[0] . "<br>" . $myNames[1] . "<br>" . $myNames[2] . "<br>" . $myNames[3];
     ?>
     </body>
     </html>
