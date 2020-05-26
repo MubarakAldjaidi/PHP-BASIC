@@ -3,10 +3,20 @@
     </head>
     <body>
       <?php
-      $myNames =  ['tijger', 'mickey', 'lotje'];
-      $myNames[3] = 'panter';
+     $getal1 = 5;
+     $getal2 = 10;
+     echo $getal1 + $getal2;
 
-      echo $myNames[0] . "<br>" . $myNames[1] . "<br>" . $myNames[2] . "<br>" . $myNames[3];
-    ?>
+     $getal3 = 5;
+     $getal4 = 3;
+     echo $getal3 - $getal4;
+
+     $getal5 = 4;
+     $getal6 = 4;
+     echo $getal5 * $getal6;
+
+     $getal7 = 50;
+     $getal8 = 2;
+     echo $getal1 / $getal2;
     </body>
     </html>
