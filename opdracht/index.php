@@ -4,44 +4,33 @@
 
 <?php
     $test1 = 10;
-    $test2 = "gewoon tekst";
-
-    var_dump($test1 == $test2);
+    $test2 = 8;
+    
+    if($test1 != $test2) {
+        echo "de vergelijking is ongelijk!";
+    }
 
     $test3 = 10;
-    $test4 = "gewoon tekst";
+    $test4 = 10;
 
-    var_dump($test3 === $test4);
-
+    if($test3 === $test4) {
+        echo "de vergelijking is identiek!";
+    }
+    
     $test5 = 10;
-    $test6 = "gewoon tekst";
-
-    var_dump($test5 != $test6);
+    $test6 = 8;
+    
+    if($test5 > $test6) {
+        echo "de vergelijking is groter!";
+    }
 
     $test7 = 10;
-    $test8 = "gewoon tekst";
+    $test8 = 10;
+    
+    if($test7 >= $test8) {
+        echo "de vergelijking is groter/gelijk!";
+    }
 
-    var_dump($test7 > $test8);
-
-    $test9 = 10;
-    $test10 = "gewoon tekst";
-
-    var_dump($test9 < $test10);
-
-    $test11 = 10;
-    $test12 = "gewoon tekst";
-
-    var_dump($test11 <> $test12);
-
-    $test13 = 10;
-    $test14 = "gewoon tekst";
-
-    var_dump($test13 >= $test14);
-
-    $test15 = 10;
-    $test16 = "gewoon tekst";
-
-    var_dump($test15 <= $test16);
 ?>  
 
 </body>
