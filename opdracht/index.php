@@ -3,9 +3,9 @@
     </head>
     <body>
       <?php
-         $test = null;
-        //$test = true;
-         echo $test
+         $score = 0;
+
+         echo $score
     ?>
     </body>
     </html>
