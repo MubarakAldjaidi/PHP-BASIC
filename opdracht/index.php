@@ -3,10 +3,10 @@
     </head>
     <body>
       <?php
+      $item = "<li>tas</li>";
+      $item = $item . "<li>bal</li>" . "<li>jas</li>";
 
-    $voornaam = "Mubarak";
-    $leeftijd = 22;
-    echo "Jouw naam is " . $voornaam . " en je bent " . $leeftijd . " jaar oud.";
+    echo $item
     ?>
     </body>
     </html>
