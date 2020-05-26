@@ -3,14 +3,9 @@
     </head>
     <body>
       <?php
-         $leeftijd = 22;
-         $melk = 0.99;
-
-         echo "Ik ben " . $leeftijd . "jaar" ;
-          
-         echo "Deze melk pak kost" . $melk;
-         
-
+         $test = null;
+        //$test = true;
+         echo $test
     ?>
     </body>
     </html>
