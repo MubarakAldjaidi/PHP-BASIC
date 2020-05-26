@@ -3,9 +3,9 @@
     </head>
     <body>
       <?php
-         $score = 0;
+         $voornaam = "mubarak";
 
-         echo $score
+         echo $voornaam
     ?>
     </body>
     </html>
