@@ -3,10 +3,10 @@
     </head>
     <body>
       <?php
-      $item = "<li>tas</li>";
-      $item = $item . "<li>bal</li>" . "<li>jas</li>";
+      $test = "bentleys";
+      
 
-    echo $item
+     var_dump($test);
     ?>
     </body>
     </html>
