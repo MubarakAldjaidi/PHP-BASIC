@@ -3,9 +3,14 @@
     </head>
     <body>
       <?php
-         $voornaam = "mubarak";
+         $leeftijd = 22;
+         $melk = 0.99;
 
-         echo $voornaam
+         echo "Ik ben " . $leeftijd . "jaar" ;
+          
+         echo "Deze melk pak kost" . $melk;
+         
+
     ?>
     </body>
     </html>
