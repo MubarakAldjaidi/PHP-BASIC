@@ -4,9 +4,12 @@
     <body>
       <?php
 
-         $voornaam = "Mubarak";
-         $leeftijd = 22;
-         echo "Mijn naam is $voornaam en je bent $leeftijd jaar oud.";
+         $voornaam1 = "N'joy";
+         $voornaam2 = "Donne";
+         $voornaam3 = "Nassim";
+
+
+         echo "<li>$voornaam1</li><li>$voornaam2</li><li>$voornaam3</li>";
     ?>
     </body>
     </html>
