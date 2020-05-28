@@ -3,59 +3,16 @@
 <body>
 
 <?php
-    $test1 = 3;
-    $test2 = 6;
+    $prod_besteld = 12;
     
-    if($test1 == $test2) {
-        echo "de vergelijking is waar!";
+    if($prod_besteld < 10) {
+        $prijs = 1.50;
+        echo "Dit is waar!";
+    } elseif($prod_besteld < 20) {
+        $prijs = 1.25;
+    } else {
+        $prijs = 1.00;
     }
-    else {
-        echo "de vergelijking is niet waar!";
-    }
-
-    if($test1 != $test2) {
-        echo "de vergelijking is waar!";
-    }
-    else {
-        echo "de vergelijking is niet waar!";
-    }
-
-    if($test1 === $test2) {
-        echo "de vergelijking is waar!";
-    }
-    else {
-        echo "de vergelijking is niet waar!";
-    }
-
-    if($test1 > $test2) {
-        echo "de vergelijking is waar!";
-    }
-    else {
-        echo "de vergelijking is niet waar!";
-    }
-
-    if($test1 < $test2) {
-        echo "de vergelijking is waar!";
-    }
-    else {
-        echo "de vergelijking is niet waar!";
-    }
-
-    if($test1 >= $test2) {
-        echo "de vergelijking is waar!";
-    }
-    else {
-        echo "de vergelijking is niet waar!";
-    }
-
-    if($test1 <= $test2) {
-        echo "de vergelijking is waar!";
-    }
-    else {
-        echo "de vergelijking is niet waar!";
-    }
-
- 
 ?>  
 
 </body>
