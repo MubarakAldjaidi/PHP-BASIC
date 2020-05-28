@@ -3,34 +3,59 @@
 <body>
 
 <?php
-    $test1 = 10;
-    $test2 = 8;
+    $test1 = 3;
+    $test2 = 6;
     
+    if($test1 == $test2) {
+        echo "de vergelijking is waar!";
+    }
+    else {
+        echo "de vergelijking is niet waar!";
+    }
+
     if($test1 != $test2) {
-        echo "de vergelijking is ongelijk!";
+        echo "de vergelijking is waar!";
+    }
+    else {
+        echo "de vergelijking is niet waar!";
     }
 
-    $test3 = 10;
-    $test4 = 10;
-
-    if($test3 === $test4) {
-        echo "de vergelijking is identiek!";
+    if($test1 === $test2) {
+        echo "de vergelijking is waar!";
     }
-    
-    $test5 = 10;
-    $test6 = 8;
-    
-    if($test5 > $test6) {
-        echo "de vergelijking is groter!";
+    else {
+        echo "de vergelijking is niet waar!";
     }
 
-    $test7 = 10;
-    $test8 = 10;
-    
-    if($test7 >= $test8) {
-        echo "de vergelijking is groter/gelijk!";
+    if($test1 > $test2) {
+        echo "de vergelijking is waar!";
+    }
+    else {
+        echo "de vergelijking is niet waar!";
     }
 
+    if($test1 < $test2) {
+        echo "de vergelijking is waar!";
+    }
+    else {
+        echo "de vergelijking is niet waar!";
+    }
+
+    if($test1 >= $test2) {
+        echo "de vergelijking is waar!";
+    }
+    else {
+        echo "de vergelijking is niet waar!";
+    }
+
+    if($test1 <= $test2) {
+        echo "de vergelijking is waar!";
+    }
+    else {
+        echo "de vergelijking is niet waar!";
+    }
+
+ 
 ?>  
 
 </body>
