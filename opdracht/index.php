@@ -3,15 +3,23 @@
 <body>
 
 <?php
-    $prod_besteld = 12;
+    $score = 10;
     
-    if($prod_besteld < 10) {
-        $prijs = 1.50;
-        echo "Dit is waar!";
-    } elseif($prod_besteld < 20) {
-        $prijs = 1.25;
-    } else {
-        $prijs = 1.00;
+    switch($score) {
+        case 10:
+            echo "Wow wat een fantastische score!";
+            break;
+        case 9:
+            echo "Wow bijna alle punten nog 1 te gaan!";
+            break;
+        case 8:
+            echo "Goed bezig, bijna alle punten!";
+            break;
+        case 7:
+            echo "Ga zo door!";
+            break;
+            default:
+            echo "Nog even oefenen dan haal je vast alle punten!";
     }
 ?>  
 
