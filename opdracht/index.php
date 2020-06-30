@@ -1,38 +1,22 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <?php require 'includes/menu.php';?>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title> 
+    <?php include 'includes/functions.php';?>
+  </head>
+    <form action="index.php" method="get"><!-- dit laten staan! -->
 
-<?php
-    $var1 = 3;
-    $var2 = 10;
-    $var3 = 4;
-    $var4 = 11;
+    <p>Op deze website kun je checken welk datatype je hebt ingevoerd.</p>
+    <P>Vul hieronder een getal, een decimaal, een tekst of de tekst true/false in en klik op check!</p> 
+    <input type="text" name="input"><!-- dit laten staan! -->
+    <button type="submit" name="submit">Check</button><!-- dit laten staan! -->
+    <p>Het datatype van de waarde: <?php getInput(); ?> is </p>
 
-    if($var1 < 10 && $var1 > 5) {
-        echo "het getal zit tussen de 10 en de 5!";
-    } else {
-        echo "het getal is groter dan 10 of kleiner dan 5!";
-    }
-
-    if($var2 < 20 || $var2 > 10) {
-        echo "het getal zit tussen de 10 en de 20!";
-    } else {
-        echo "het getal is groter dan 10 of kleiner dan 20!";
-    }
-
-    if($var3 < 10 xor $var3 > 5) {
-        echo "het getal zit tussen de 10 en de 5!";
-    } else {
-        echo "het getal is groter dan 5 of kleiner dan 10!";
-    }
-
-    if($var1 < 20 ! $var1 > 10) {
-        echo "het getal zit tussen de 10 en de 20!";
-    } else {
-        echo "het getal is groter dan 10 of kleiner dan 20!";
-    }
-    
-?>  
-
-</body>
+    </form><!-- dit laten staan! -->
+    <?php require 'includes/footer.php';?>
+  </body>
 </html>
